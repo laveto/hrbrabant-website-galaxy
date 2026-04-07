@@ -1,0 +1,30 @@
+.canvas-blocks-custom-sponsorSlider-Block {
+    $sponsorSlider: &;
+
+    .owl-carousel {
+        $slider: &;
+
+        @apply overflow-hidden;
+
+        .owl-nav {
+            @apply absolute flex justify-between px-12 text-black top-1/2 -translate-y-1/2 w-full pointer-events-none;
+
+            > * {
+                @apply pointer-events-auto;
+            }
+        }
+
+        &[data-autoplay="0"] {
+            .owl-nav {
+                > button[class*="owl-"] {
+                    @apply bg-white h-8 w-8 rounded-full border;
+
+                    &.disabled {
+                        @apply opacity-50;
+                    }
+                }
+            }
+        }
+    }
+
+}

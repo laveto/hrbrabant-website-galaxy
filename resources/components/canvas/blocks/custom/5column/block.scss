@@ -1,0 +1,11 @@
+.canvas-blocks-custom-5column-Block {
+
+    img {
+        max-width: 50%;
+
+        @screen md {
+            @apply max-w-full;
+        }
+    }
+
+}

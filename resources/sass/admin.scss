@@ -1,0 +1,13 @@
+/**
+ * Import needed Concord modules.
+ */
+@import "@galaxy/modules/Admin/resources/sass/bootstrap";
+@import "@galaxy/modules/Canvas/resources/sass/bootstrap.admin";
+@import "@galaxy/modules/Crud/resources/sass/bootstrap";
+@import "@galaxy/modules/Website/resources/sass/bootstrap.admin";
+@import "@galaxy/modules/WebsiteForms/resources/sass/bootstrap.admin";
+
+/**
+ * Import app css. We can use glob (wildcard) here since this file is a webpack entry.
+ */
+

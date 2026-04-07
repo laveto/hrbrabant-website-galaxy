@@ -1,0 +1,7 @@
+[defaults]
+org=laveto
+; Vul hier de naam van het project op Sentry in. Later zouden we dit ooit nog uit de .env kunnen halen.
+project=vulHierJeSentryProjectNaamIn
+
+[auth]
+token = 44e3a7bc26ee4757b7d0b96c7ca7308b87e4f15d398141b5b4e28b721ac17ca1

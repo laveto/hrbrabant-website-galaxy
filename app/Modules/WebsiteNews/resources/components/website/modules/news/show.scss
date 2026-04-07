@@ -1,0 +1,13 @@
+.website_news\:\:website-modules-news-Show {
+
+    .container {
+        @screen md {
+            max-width: 768px;
+        }
+
+        @screen lg {
+            max-width: 900px;
+        }
+    }
+
+}

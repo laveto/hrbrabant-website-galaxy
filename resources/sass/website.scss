@@ -1,0 +1,14 @@
+/**
+ * Import needed Concord modules.
+ */
+@import "@galaxy/modules/Canvas/resources/sass/bootstrap.website";
+@import "@galaxy/modules/Crud/resources/sass/form/inputs/**/*.scss";
+@import "@galaxy/modules/Crud/resources/sass/form/disabled.scss";
+@import "@galaxy/modules/Website/resources/sass/bootstrap.website";
+
+/**
+ * Import app css. We can use glob (wildcard) here since this file is a webpack entry.
+ */
+@import "website/**/*";
+@import "./../components/**/*.scss";// Uncomment when there are components
+@import "./../../app/Modules/**/*.scss"; // Uncomment when there is a module

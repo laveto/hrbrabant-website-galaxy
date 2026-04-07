@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <clipPath id="clip-Modules_-_Nieuws_Galaxy">
+      <rect width="600" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="Modules_-_Nieuws_Galaxy" data-name="Modules - Nieuws – Galaxy" clip-path="url(#clip-Modules_-_Nieuws_Galaxy)">
+    <rect width="600" height="400" fill="#fff"/>
+    <g id="Group_359" data-name="Group 359">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="110" height="110" rx="10" transform="translate(125 145)" fill="#dce6ed"/>
+      <g id="Group_279" data-name="Group 279" transform="translate(158.324 178.907)">
+        <g id="Icon_feather-image" data-name="Icon feather-image">
+          <path id="Path_186" data-name="Path 186" d="M7.372,1.5h30.92a5.878,5.878,0,0,1,5.872,5.872v30.92a5.878,5.878,0,0,1-5.872,5.872H7.372A5.878,5.878,0,0,1,1.5,38.292V7.372A5.878,5.878,0,0,1,7.372,1.5Zm30.92,39.755a2.966,2.966,0,0,0,2.963-2.963V7.372a2.966,2.966,0,0,0-2.963-2.963H7.372A2.966,2.966,0,0,0,4.409,7.372v30.92a2.966,2.966,0,0,0,2.963,2.963Z" transform="translate(-1.5 -1.5)" fill="#92a6b6"/>
+          <path id="Path_187" data-name="Path 187" d="M12.267,7.5A4.767,4.767,0,1,1,7.5,12.267,4.773,4.773,0,0,1,12.267,7.5Zm0,6.626a1.858,1.858,0,1,0-1.858-1.858A1.861,1.861,0,0,0,12.267,14.126Z" transform="translate(1.334 1.334)" fill="#92a6b6"/>
+          <path id="Path_188" data-name="Path 188" d="M5.954,39.2a1.454,1.454,0,0,1-1.028-2.483L29.221,12.426a1.454,1.454,0,0,1,2.057,0L42.32,23.469a1.454,1.454,0,1,1-2.057,2.057L30.249,15.511,6.983,38.777A1.45,1.45,0,0,1,5.954,39.2Z" transform="translate(-0.083 3.46)" fill="#92a6b6"/>
+        </g>
+      </g>
+      <rect id="Rectangle_9-2" data-name="Rectangle 9" width="110" height="110" rx="10" transform="translate(245 145)" fill="#dce6ed"/>
+      <rect id="Rectangle_9-3" data-name="Rectangle 9" width="110" height="110" rx="10" transform="translate(365 145)" fill="#dce6ed"/>
+      <g id="Group_510" data-name="Group 510" transform="translate(278.668 178.668)">
+        <g id="Icon_feather-image-2" data-name="Icon feather-image">
+          <path id="Path_186-2" data-name="Path 186" d="M7.372,1.5h30.92a5.878,5.878,0,0,1,5.872,5.872v30.92a5.878,5.878,0,0,1-5.872,5.872H7.372A5.878,5.878,0,0,1,1.5,38.292V7.372A5.878,5.878,0,0,1,7.372,1.5Zm30.92,39.755a2.966,2.966,0,0,0,2.963-2.963V7.372a2.966,2.966,0,0,0-2.963-2.963H7.372A2.966,2.966,0,0,0,4.409,7.372v30.92a2.966,2.966,0,0,0,2.963,2.963Z" transform="translate(-1.5 -1.5)" fill="#92a6b6"/>
+          <path id="Path_187-2" data-name="Path 187" d="M12.267,7.5A4.767,4.767,0,1,1,7.5,12.267,4.773,4.773,0,0,1,12.267,7.5Zm0,6.626a1.858,1.858,0,1,0-1.858-1.858A1.861,1.861,0,0,0,12.267,14.126Z" transform="translate(1.334 1.334)" fill="#92a6b6"/>
+          <path id="Path_188-2" data-name="Path 188" d="M5.954,39.2a1.454,1.454,0,0,1-1.028-2.483L29.221,12.426a1.454,1.454,0,0,1,2.057,0L42.32,23.469a1.454,1.454,0,1,1-2.057,2.057L30.249,15.511,6.983,38.777A1.45,1.45,0,0,1,5.954,39.2Z" transform="translate(-0.083 3.46)" fill="#92a6b6"/>
+        </g>
+      </g>
+      <g id="Group_511" data-name="Group 511" transform="translate(398.668 178.668)">
+        <g id="Icon_feather-image-3" data-name="Icon feather-image">
+          <path id="Path_186-3" data-name="Path 186" d="M7.372,1.5h30.92a5.878,5.878,0,0,1,5.872,5.872v30.92a5.878,5.878,0,0,1-5.872,5.872H7.372A5.878,5.878,0,0,1,1.5,38.292V7.372A5.878,5.878,0,0,1,7.372,1.5Zm30.92,39.755a2.966,2.966,0,0,0,2.963-2.963V7.372a2.966,2.966,0,0,0-2.963-2.963H7.372A2.966,2.966,0,0,0,4.409,7.372v30.92a2.966,2.966,0,0,0,2.963,2.963Z" transform="translate(-1.5 -1.5)" fill="#92a6b6"/>
+          <path id="Path_187-3" data-name="Path 187" d="M12.267,7.5A4.767,4.767,0,1,1,7.5,12.267,4.773,4.773,0,0,1,12.267,7.5Zm0,6.626a1.858,1.858,0,1,0-1.858-1.858A1.861,1.861,0,0,0,12.267,14.126Z" transform="translate(1.334 1.334)" fill="#92a6b6"/>
+          <path id="Path_188-3" data-name="Path 188" d="M5.954,39.2a1.454,1.454,0,0,1-1.028-2.483L29.221,12.426a1.454,1.454,0,0,1,2.057,0L42.32,23.469a1.454,1.454,0,1,1-2.057,2.057L30.249,15.511,6.983,38.777A1.45,1.45,0,0,1,5.954,39.2Z" transform="translate(-0.083 3.46)" fill="#92a6b6"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_284" data-name="Group 284" transform="translate(237.5 110)">
+      <rect id="Rectangle_379" data-name="Rectangle 379" width="125" height="12" rx="6" transform="translate(0)" fill="#152a31"/>
+    </g>
+    <g id="Group_349" data-name="Group 349" transform="translate(274.019 278)">
+      <rect id="Rectangle_379-2" data-name="Rectangle 379" width="51.963" height="12" rx="2" transform="translate(0)" fill="#4e6de4"/>
+    </g>
+  </g>
+</svg>

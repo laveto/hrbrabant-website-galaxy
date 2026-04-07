@@ -1,0 +1,6 @@
+*
+!public/.htaccess
+!public/
+!public/.gitkeep
+!.gitignore
+!.gitkeep

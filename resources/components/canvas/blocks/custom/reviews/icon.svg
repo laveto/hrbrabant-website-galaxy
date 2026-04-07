@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="500" height="144" transform="translate(0 -0.312)" fill="#4895a9"/>
+    </clipPath>
+    <clipPath id="clip-Reviews">
+      <rect width="600" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="Reviews" clip-path="url(#clip-Reviews)">
+    <rect width="600" height="400" fill="#fff"/>
+    <g id="Group_1039" data-name="Group 1039" transform="translate(50.127 -1271.688)">
+      <rect id="Rectangle_155" data-name="Rectangle 155" width="500" height="144" rx="16" transform="translate(-0.127 1399.688)" fill="#4895a9"/>
+    </g>
+    <g id="Group_1040" data-name="Group 1040" transform="translate(251.63 98.388)">
+      <rect id="Rectangle_379" data-name="Rectangle 379" width="96.739" height="11" rx="5.5" transform="translate(0)"/>
+    </g>
+    <g id="Group_1041" data-name="Group 1041" transform="translate(-371.279 -4110.279)">
+      <path id="star-solid_1_" data-name="star-solid (1)" d="M32.155.493a.877.877,0,0,0-1.576,0l-1.76,3.62-3.929.58A.876.876,0,0,0,24.4,6.182L27.254,9l-.673,3.987a.878.878,0,0,0,1.278.919l3.511-1.874,3.511,1.874a.878.878,0,0,0,1.278-.919L35.482,9l2.851-2.821a.876.876,0,0,0-.487-1.489l-3.932-.58Z" transform="translate(607.8 4273)" fill="#fff"/>
+      <path id="star-solid_1_2" data-name="star-solid (1)" d="M32.155.493a.877.877,0,0,0-1.576,0l-1.76,3.62-3.929.58A.876.876,0,0,0,24.4,6.182L27.254,9l-.673,3.987a.878.878,0,0,0,1.278.919l3.511-1.874,3.511,1.874a.878.878,0,0,0,1.278-.919L35.482,9l2.851-2.821a.876.876,0,0,0-.487-1.489l-3.932-.58Z" transform="translate(623.855 4273)" fill="#fff"/>
+      <path id="star-solid_1_3" data-name="star-solid (1)" d="M32.155.493a.877.877,0,0,0-1.576,0l-1.76,3.62-3.929.58A.876.876,0,0,0,24.4,6.182L27.254,9l-.673,3.987a.878.878,0,0,0,1.278.919l3.511-1.874,3.511,1.874a.878.878,0,0,0,1.278-.919L35.482,9l2.851-2.821a.876.876,0,0,0-.487-1.489l-3.932-.58Z" transform="translate(639.911 4273)" fill="#fff"/>
+      <path id="star-solid_1_4" data-name="star-solid (1)" d="M32.155.493a.877.877,0,0,0-1.576,0l-1.76,3.62-3.929.58A.876.876,0,0,0,24.4,6.182L27.254,9l-.673,3.987a.878.878,0,0,0,1.278.919l3.511-1.874,3.511,1.874a.878.878,0,0,0,1.278-.919L35.482,9l2.851-2.821a.876.876,0,0,0-.487-1.489l-3.932-.58Z" transform="translate(655.966 4273)" fill="#126e86"/>
+      <path id="star-solid_1_5" data-name="star-solid (1)" d="M32.155.493a.877.877,0,0,0-1.576,0l-1.76,3.62-3.929.58A.876.876,0,0,0,24.4,6.182L27.254,9l-.673,3.987a.878.878,0,0,0,1.278.919l3.511-1.874,3.511,1.874a.878.878,0,0,0,1.278-.919L35.482,9l2.851-2.821a.876.876,0,0,0-.487-1.489l-3.932-.58Z" transform="translate(672.021 4273)" fill="#126e86"/>
+    </g>
+    <rect id="Rectangle_2436" data-name="Rectangle 2436" width="200.791" height="4" rx="2" transform="translate(199.604 200)" fill="#fff" opacity="0.76"/>
+    <rect id="Rectangle_2442" data-name="Rectangle 2442" width="45.44" height="2.906" rx="1.453" transform="translate(277.28 234.995)" fill="#fff" opacity="0.76"/>
+    <rect id="Rectangle_2437" data-name="Rectangle 2437" width="172.816" height="4" rx="2" transform="translate(213.604 209.449)" fill="#fff" opacity="0.76"/>
+    <rect id="Rectangle_2443" data-name="Rectangle 2443" width="39.109" height="2.906" rx="1.453" transform="translate(280.448 241.859)" fill="#fff" opacity="0.76"/>
+    <circle id="Ellipse_43" data-name="Ellipse 43" cx="9" cy="9" r="9" transform="translate(516 191)" fill="#fff"/>
+  </g>
+</svg>

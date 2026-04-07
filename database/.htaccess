@@ -1,0 +1,18 @@
+php_value memory_limit 256M
+
+RewriteEngine On
+
+# Enforce HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# BJ: Get rid of /public (hack for sharded hosting laravel)
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+RewriteRule ^ index.php [L]
+
+# Allow PUT AND DELETE methods (for backpack)
+<Limit GET POST PUT DELETE>
+  Allow from all
+</Limit>

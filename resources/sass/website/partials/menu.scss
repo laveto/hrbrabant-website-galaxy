@@ -1,0 +1,13 @@
+.website\:\:partials-Menu {
+    > .website\:\:partials-menu-Level {
+        display: flex;
+
+        > li {
+            width: 100%;
+
+            > a {
+                font-weight: bold;
+            }
+        }
+    }
+}

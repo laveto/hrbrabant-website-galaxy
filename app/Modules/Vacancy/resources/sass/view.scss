@@ -1,0 +1,24 @@
+.vacancy\:\:website-modules-vacancy-Show {
+    ul {
+        @apply list-disc pl-[20px] marker:text-palette-lightblue space-y-3;
+
+        li {
+            &:last-child {
+                margin-bottom:1rem!important;
+            }
+        }
+    }
+
+    a {
+        @apply text-palette-lightblue hover:opacity-75;
+    }
+
+    .arrowList {
+        li {
+            list-style-image: url('/img/website/list-arrow.svg');
+            a {
+                @apply text-palette-lightblue hover:opacity-75;
+            }
+        }
+    }
+}

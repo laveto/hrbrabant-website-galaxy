@@ -1,0 +1,30 @@
+.website\:\:partials-Breadcrumbs {
+    ul {
+        li {
+            @apply text-gray-500 font-medium text-base;
+
+            &:last-child {
+                @apply truncate;
+            }
+
+            a {
+                @apply text-gray-500 font-medium;
+                &:hover {
+                    @apply text-gray-400;
+                }
+            }
+
+            &:after {
+                @apply h-5 w-5 text-gray-400 font-normal text-sm px-2;
+                content:     '\f105';
+                font-family: 'Font Awesome 5 Pro';
+            }
+
+            &:last-of-type {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+}

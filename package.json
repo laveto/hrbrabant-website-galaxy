@@ -1,0 +1,36 @@
+{
+    "scripts": {
+        "dev:all": "npm run common:concurrently -- \"npm:dev:common\" \"npm:dev:admin\" \"npm:dev:admin-tw\" \"npm:dev:website\" \"npm:dev:website-tw\" \"npm:dev:canvas-website\"",
+        "dev:admin": "mix --mix-config=webpack.mix.admin",
+        "dev:admin-tw": "mix --mix-config=webpack.mix.admin.tw",
+        "dev:website": "mix --mix-config=webpack.mix.website",
+        "dev:website-tw": "mix --mix-config=webpack.mix.website.tw",
+        "dev:canvas-website": "mix --mix-config=galaxy/modules/Canvas/webpack.mix.editor.website.js",
+        "watch:all": "npm run common:concurrently -- \"npm:watch:common\" \"npm:watch:admin\" \"npm:watch:admin-tw\" \"npm:watch:website\" \"npm:watch:website-tw\" \"npm:watch:canvas-website\"",
+        "watch:admin": "mix watch --mix-config=webpack.mix.admin",
+        "watch:admin-tw": "mix watch --mix-config=webpack.mix.admin.tw",
+        "watch:website": "mix watch --mix-config=webpack.mix.website",
+        "watch:website-tw": "mix watch --mix-config=webpack.mix.website.tw",
+        "watch:canvas-website": "mix watch --mix-config=galaxy/modules/Canvas/webpack.mix.editor.website.js",
+        "prod:all": "npm run common:concurrently -- \"npm:prod:common\" \"npm:prod:admin\" \"npm:prod:admin-tw\" \"npm:prod:website\" \"npm:prod:website-tw\" \"npm:prod:canvas-website\"",
+        "prod:admin": "mix --production --mix-config=webpack.mix.admin",
+        "prod:admin-tw": "mix --production --mix-config=webpack.mix.admin.tw",
+        "prod:website": "mix --production --mix-config=webpack.mix.website",
+        "prod:website-tw": "mix --production --mix-config=webpack.mix.website.tw",
+        "prod:canvas-website": "mix --production --mix-config=galaxy/modules/Canvas/webpack.mix.editor.website.js",
+        "dev": "npm run dev:all",
+        "watch": "npm run watch:all",
+        "prod": "npm run prod:all",
+        "common:dev": "mix watch",
+        "common:prod": "mix --production",
+        "common:concurrently": "concurrently --kill-others-on-fail -c \"bgMagenta.bold,bgGreen.bold,bgCyan.bold\"",
+        "dev:common": "mix --mix-config=webpack.mix.common",
+        "watch:common": "mix watch --mix-config=webpack.mix.common",
+        "prod:common": "mix --production --mix-config=webpack.mix.common"
+    },
+    "dependencies": {
+        "galaxy": "file:./galaxy/",
+        "swiper": "^11.1.14",
+        "tiny-slider": "^2.9.4"
+    }
+}

@@ -1,0 +1,21 @@
+.canvas-blocks-custom-leftTextImageRight-Block {
+
+    table {
+        &[border="0"][cellpadding="10"] {
+            margin: 0 -10px;
+        }
+
+        &[border="0"][cellpadding="0"] {
+            margin: 0;
+        }
+
+        tr {
+            @apply flex flex-col;
+
+            @screen lg {
+                display: initial;
+            }
+        }
+    }
+
+}

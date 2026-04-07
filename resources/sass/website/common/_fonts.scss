@@ -1,0 +1,61 @@
+body {
+    font-family: var(--font-base);
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+    @apply leading-10;
+    font-family: var(--font-heading);
+    font-weight: bold;
+    hyphens: none;
+    word-break: break-word;
+}
+
+.h1, h1 {
+    @apply text-4xl mb-6;
+
+    @screen md {
+        @apply text-5xl;
+    }
+}
+
+.h2, h2 {
+    @apply text-xl mb-3;
+
+    @screen sm {
+        @apply text-3xl;
+    }
+}
+
+.h3, h3 {
+    @apply text-2xl mb-3 font-medium;
+}
+
+.h4, h4 {
+    @apply text-xl mb-3;
+}
+
+.h5, h5 {
+    @apply text-lg mb-2;
+}
+
+p {
+    word-break: break-word;
+    hyphens: manual;
+}
+
+.font-base {
+    font-family: var(--font-base);
+}
+
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+.font-alternate {
+    font-family: var(--font-alternate);
+}

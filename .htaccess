@@ -1,0 +1,75 @@
+# Config PHP
+php_value memory_limit 256M
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Enforce HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Enforce wwww.
+RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+
+# Remove trailing slash.
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# TODO Test
+# Forbid .js.map file requests
+<Files ~ "\.js\.map$">
+  Order allow,deny
+  Deny from all
+</Files>
+
+# Route to cache - index?
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP:X-Requested-With} !=XMLHttpRequest
+RewriteCond %{HTTP:X-REQUESTED-WITH} !^(XMLHttpRequest)$
+RewriteCond %{HTTP_COOKIE} !lav-galaxy-website-cache-disabled= [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule (.*) /storage/app/website-html-cache/index.htm [L]
+
+# Route to cache - file specific?
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP:X-Requested-With} !=XMLHttpRequest
+RewriteCond %{HTTP:X-REQUESTED-WITH} !^(XMLHttpRequest)$
+RewriteCond %{HTTP_COOKIE} !lav-galaxy-website-cache-disabled= [NC]
+RewriteCond %{DOCUMENT_ROOT}/storage/app/website-html-cache%{REQUEST_URI}.htm -f
+RewriteRule (.*) /storage/app/website-html-cache%{REQUEST_URI}.htm [L]
+
+# Get rid of /public (hack for sharded hosting Laravel)
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+# Browser cache static files.
+<filesmatch "(gif|ico|jpeg|jpe|jpg|svg|png|css|js|woff2)$">
+	Header set Cache-Control "max-age=31557600, public"
+</filesmatch>
+
+# Activate GZIP compression
+SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+AddOutputFilterByType DEFLATE application/atom+xml \
+                              application/javascript \
+                              application/json \
+                              application/rss+xml \
+                              application/vnd.ms-fontobject \
+                              application/x-font-ttf \
+                              application/xhtml+xml \
+                              application/xml \
+                              font/opentype \
+                              font/woff2 \
+                              image/svg+xml \
+                              image/x-icon \
+                              text/css \
+                              text/html \
+                              text/plain \
+                              text/x-component \
+                              text/xml
+
+<if "%{HTTPS} == 'on'">
+	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</if>

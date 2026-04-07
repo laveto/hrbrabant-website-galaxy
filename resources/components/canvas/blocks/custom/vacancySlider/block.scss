@@ -1,0 +1,14 @@
+.canvas-blocks-custom-vacancySlider-Block {
+    .swiper-container {
+
+        .swiper-slide {
+            @apply h-auto;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            @apply inline-flex items-center justify-center w-10 h-10 bg-white rounded-full hover:bg-opacity-75;
+        }
+
+    }
+}

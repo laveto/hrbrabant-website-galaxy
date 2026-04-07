@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <clipPath id="clip-Klantverhalen">
+      <rect width="600" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="Klantverhalen" clip-path="url(#clip-Klantverhalen)">
+    <rect width="600" height="400" fill="#fff"/>
+    <g id="Group_1071" data-name="Group 1071" transform="translate(0 2.75)">
+      <g id="Group_1040" data-name="Group 1040" transform="translate(50 105.25)">
+        <rect id="Rectangle_379" data-name="Rectangle 379" width="96.739" height="11" rx="5.5" transform="translate(0)"/>
+      </g>
+      <g id="Group_1057" data-name="Group 1057" transform="translate(-20.063 56.862)">
+        <g id="Group_1048" data-name="Group 1048" transform="translate(70.063 169.666)">
+          <g id="Group_1046" data-name="Group 1046" transform="translate(0)">
+            <rect id="Rectangle_379-2" data-name="Rectangle 379" width="50.095" height="7" rx="3.5" transform="translate(0)"/>
+          </g>
+        </g>
+        <g id="Group_1050" data-name="Group 1050" transform="translate(70.063 187.553)" opacity="0.5">
+          <rect id="Rectangle_2445" data-name="Rectangle 2445" width="121.874" height="5" rx="2.5" transform="translate(0 0)" fill="#0a718b" opacity="0.76"/>
+          <rect id="Rectangle_2446" data-name="Rectangle 2446" width="104" height="5" rx="2.5" transform="translate(0 11.447)" fill="#0a718b" opacity="0.76"/>
+        </g>
+        <g id="Group_1055" data-name="Group 1055" transform="translate(70.063 215.086)">
+          <g id="Group_45" data-name="Group 45" transform="translate(0 0)">
+            <rect id="Rectangle_4" data-name="Rectangle 4" width="48" height="17" rx="4" transform="translate(0 -0.198)" fill="#00afcb"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1058" data-name="Group 1058" transform="translate(153.937 56.862)">
+        <g id="Group_1048-2" data-name="Group 1048" transform="translate(70.063 169.666)">
+          <g id="Group_1046-2" data-name="Group 1046" transform="translate(0)">
+            <rect id="Rectangle_379-3" data-name="Rectangle 379" width="50.095" height="7" rx="3.5" transform="translate(0)"/>
+          </g>
+        </g>
+        <g id="Group_1050-2" data-name="Group 1050" transform="translate(70.063 187.553)" opacity="0.5">
+          <rect id="Rectangle_2445-2" data-name="Rectangle 2445" width="121.874" height="5" rx="2.5" transform="translate(0 0)" fill="#0a718b" opacity="0.76"/>
+          <rect id="Rectangle_2446-2" data-name="Rectangle 2446" width="104" height="5" rx="2.5" transform="translate(0 11.447)" fill="#0a718b" opacity="0.76"/>
+        </g>
+        <g id="Group_1055-2" data-name="Group 1055" transform="translate(70.063 215.086)">
+          <g id="Group_45-2" data-name="Group 45" transform="translate(0 0)">
+            <rect id="Rectangle_4-2" data-name="Rectangle 4" width="48" height="17" rx="4" transform="translate(0 -0.198)" fill="#00afcb"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1059" data-name="Group 1059" transform="translate(330.937 56.862)">
+        <g id="Group_1048-3" data-name="Group 1048" transform="translate(70.063 169.666)">
+          <g id="Group_1046-3" data-name="Group 1046" transform="translate(0)">
+            <rect id="Rectangle_379-4" data-name="Rectangle 379" width="50.095" height="7" rx="3.5" transform="translate(0)"/>
+          </g>
+        </g>
+        <g id="Group_1050-3" data-name="Group 1050" transform="translate(70.063 187.553)" opacity="0.5">
+          <rect id="Rectangle_2445-3" data-name="Rectangle 2445" width="121.874" height="5" rx="2.5" transform="translate(0 0)" fill="#0a718b" opacity="0.76"/>
+          <rect id="Rectangle_2446-3" data-name="Rectangle 2446" width="104" height="5" rx="2.5" transform="translate(0 11.447)" fill="#0a718b" opacity="0.76"/>
+        </g>
+        <g id="Group_1055-3" data-name="Group 1055" transform="translate(70.063 215.086)">
+          <g id="Group_45-3" data-name="Group 45" transform="translate(0 0)">
+            <rect id="Rectangle_4-3" data-name="Rectangle 4" width="48" height="17" rx="4" transform="translate(0 -0.198)" fill="#00afcb"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_2473" data-name="Rectangle 2473" width="149" height="77" rx="12" transform="translate(50 132.862)" fill="#9ce3ef"/>
+      <rect id="Rectangle_2474" data-name="Rectangle 2474" width="149" height="77" rx="12" transform="translate(224 132.862)" fill="#9ce3ef"/>
+      <rect id="Rectangle_2475" data-name="Rectangle 2475" width="149" height="77" rx="12" transform="translate(401 132.862)" fill="#9ce3ef"/>
+    </g>
+  </g>
+</svg>

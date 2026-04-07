@@ -1,0 +1,60 @@
+.canvas-blocks-custom-leftTextSliderRight-Block {
+
+    .sliderBadge {
+        a {
+            text-decoration: none!important;
+        }
+    }
+
+    .slider {
+        @apply z-10;
+
+        .slide-wrapper {
+
+            .item {
+                @apply transform transition opacity-0 translate-y-6 opacity-0 scale-[0.6] duration-700 z-10;
+
+                &.converting {
+                    &.nth-1 {
+                        @apply z-10;
+                    }
+                }
+
+                &:not(.active) {
+                    @apply pointer-events-none;
+                }
+
+                &:not(.nth-1) {
+                    @apply absolute top-0 left-0 -z-10;
+                }
+
+                &.nth-1 {
+                    @apply translate-y-0 scale-100 opacity-100 z-10 duration-700;
+                }
+
+                &.nth-2 {
+                    @apply -translate-y-12 scale-90 opacity-100 duration-500;
+
+                    .overlay {
+                        @apply bg-palette-darkishblue opacity-100;
+                    }
+                }
+
+                &.nth-3 {
+                    @apply -translate-y-24 scale-[0.8] opacity-100 -z-20 duration-300;
+
+                    .overlay {
+                        @apply bg-palette-lighterblue opacity-100;
+                    }
+                }
+
+                //&.nth-4 {
+                //    @apply translate-y-6 opacity-0 scale-[0.6] duration-700 z-10;
+                //}
+            }
+
+        }
+
+    }
+
+}
