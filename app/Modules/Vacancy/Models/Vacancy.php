@@ -34,6 +34,9 @@ use Laravel\Scout\Searchable;
  * @property string|null $relation
  * @property string|null $relationContact
  * @property int|null $candidatesNeeded
+ * @property int|null $hours_min
+ * @property int|null $hours_max
+ * @property array<array-key, mixed>|null $hours_values
  * @property int|null $published
  * @property \Illuminate\Support\Carbon|null $publicationStartDate
  * @property \Illuminate\Support\Carbon|null $publicationEndDate
