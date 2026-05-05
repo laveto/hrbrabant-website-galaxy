@@ -5826,11 +5826,11 @@
         },
         {
             "name": "laveto/lav-galaxy-framework",
-            "version": "2.1",
+            "version": "2.2.0",
             "dist": {
                 "type": "path",
                 "url": "galaxy",
-                "reference": "aeabec79ae3fc81fd401d9307edbb978d2c92772"
+                "reference": "a9c694636145d0efbb595e876e725496635fa42b"
             },
             "require": {
                 "algolia/algoliasearch-client-php": "^4.7.0",
