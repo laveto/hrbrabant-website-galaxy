@@ -1,6 +1,0 @@
-[2026-04-03 07:05:27] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies started:2026-04-03 07:05:27  
-[2026-04-03 07:05:28] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies Vacancies synced successfully.  
-[2026-04-03 07:05:28] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies synced offset: 0  
-[2026-04-03 07:05:28] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies cleanupOldVacancies: {"$allApiUids":["acY8ghitTHZIj4RS"],"$vacanciesToDelete":[]}  
-[2026-04-03 07:05:28] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies Vacancy acY8ghitTHZIj4RS synced successfully.  
-[2026-04-03 07:05:28] local.INFO: App\Modules\Vacancy\Console\Commands\SyncVacancies done:2026-04-03 07:05:28  
