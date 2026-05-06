@@ -39,7 +39,7 @@
             'employmentType' => 'FULL_TIME', // You may want to make this dynamic based on vacancy data
             'hiringOrganization' => [
                 '@type' => 'Organization',
-                'name' => config('app.name', 'HR Zeeland'),
+                'name' => config('app.name', 'HR Brabant'),
                 'sameAs' => config('app.url'),
             ],
         ];

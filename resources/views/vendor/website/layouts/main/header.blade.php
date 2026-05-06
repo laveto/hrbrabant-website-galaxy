@@ -1,8 +1,8 @@
 <?php
-    $logo = \Galaxy\Settings\Services\SettingsService::getModel('theme')->getFirstMedia('settings.website.logo');
-    $themeSettings = \Galaxy\Settings\Services\SettingsService::getModel('theme');
+$logo = \Galaxy\Settings\Services\SettingsService::getModel('theme')->getFirstMedia('settings.website.logo');
+$themeSettings = \Galaxy\Settings\Services\SettingsService::getModel('theme');
 ?>
-<header class="{{ $cssNs }} flex bg-white py-3 sticky top-0 z-40 border-b">
+<header class="{{ $cssNs }} flex bg-white py-4 sticky top-0 z-40 border-b">
 
     <div class="container flex items-center">
 
@@ -18,9 +18,7 @@
                 </a>
             @endif
 
-            <button class="hamburger hamburger--slider" type="button"
-                aria-label="Menu"
-            >
+            <button class="hamburger hamburger--slider" type="button" aria-label="Menu">
                 <span class="hamburger-box">
                     <span class="bg-black hamburger-inner"></span>
                 </span>
@@ -53,6 +51,7 @@
                         'style' => 'navbar',
                     ])
 
+                           
                     <div class="flex items-center pl-6 ml-auto font-normal">
                         <a href="{{ $themeSettings['settings']['header_button_link'] ?? '' }}" class="text-sm btn-primary">
                             {{ $themeSettings['settings']['header_button'] }}

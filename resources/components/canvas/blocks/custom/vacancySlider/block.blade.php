@@ -30,7 +30,7 @@
                 <?php
                     $amount = count((array)@$canvasBlock->options->loops->loop->items ?: []) ?: 5;
                     $items = \App\Modules\Vacancy\Models\Vacancy::with('vacancyValues')->orderBy('publicationStartDate', 'desc')
-                        ->when(isset($canvasBlock->options->vacancies) && str_starts_with($canvasBlock->options->vacancies, 'https://hrzeeland.nl/vacatures?filter'), function($query) use ($canvasBlock){
+                        ->when(isset($canvasBlock->options->vacancies) && str_starts_with($canvasBlock->options->vacancies, 'https://hrbrabant.nl/vacatures?filter'), function($query) use ($canvasBlock){
 
                             $data = Cache::remember('blocks.custom.vacancySlider.'.$canvasBlock->id.'filter-url', 60, function() use ($canvasBlock, $query) {
                                 $response = Http::get($canvasBlock->options->vacancies.'&json=true');
@@ -40,7 +40,7 @@
 
                             $query->whereIn('referenceNr', $data ?: []);
                         })
-                        ->when(!empty($canvasBlock->options->vacancies) && !str_starts_with($canvasBlock->options->vacancies, 'https://hrzeeland.nl/vacatures?filter'), function ($query) use ($canvasBlock) {
+                        ->when(!empty($canvasBlock->options->vacancies) && !str_starts_with($canvasBlock->options->vacancies, 'https://hrbrabant.nl/vacatures?filter'), function ($query) use ($canvasBlock) {
                             $query->whereIn('referenceNr', explode(',', $canvasBlock->options->vacancies));
                         })
                         ->limit($amount)
@@ -90,9 +90,9 @@
                                 <div class="flex flex-col h-full p-4 bg-white rounded-2xl md:p-8">
                                     <div class="mb-4 text-lg font-semibold title {{ $color }}">
                                         @if( $color == 'text-palette-green')
-                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/groen_logo.svg' alt='Groen HRZeeland logo'>
+                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/groen_logo.svg' alt='Groen HR Brabant logo'>
                                         @elseif( $color == 'text-palette-orange')
-                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/oranje_logo.svg' alt='Oranje HRZeeland logo'>
+                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/oranje_logo.svg' alt='Oranje HR Brabant logo'>
                                         @endif
 
                                         {{ $item->title }}

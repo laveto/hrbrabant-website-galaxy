@@ -9,9 +9,9 @@
     <g id="Group_1045" data-name="Group 1045" transform="translate(-9 -1.881)">
       <g id="Group_1042" data-name="Group 1042" transform="translate(84 99)">
         <g id="Group_39" data-name="Group 39" transform="translate(0 0)">
-          <rect id="HR_Zeeland_Bedrijfsfilm_0-32_screenshot" data-name="HR Zeeland Bedrijfsfilm 0-32 screenshot" width="450" height="227.881" rx="16" fill="#0a718b"/>
+          <rect id="HR_Brabant_Bedrijfsfilm_0-32_screenshot" data-name="HR Brabant Bedrijfsfilm 0-32 screenshot" width="450" height="227.881" rx="16" fill="#A8403B"/>
           <g id="Group_7" data-name="Group 7" transform="translate(199 87.449)">
-            <circle id="Ellipse_2" data-name="Ellipse 2" cx="26" cy="26" r="26" fill="#00afcb"/>
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="26" cy="26" r="26" fill="#E88A85"/>
             <path id="play-solid" d="M3.292,32.261A2.164,2.164,0,0,0,0,34.11V49.985a2.164,2.164,0,0,0,3.292,1.849L16.282,43.9a2.167,2.167,0,0,0,0-3.7Z" transform="translate(18.448 -15.471)" fill="#fff"/>
           </g>
         </g>
@@ -20,7 +20,7 @@
         <rect id="Rectangle_379" data-name="Rectangle 379" width="55.554" height="11" rx="5.5"/>
       </g>
       <g id="Group_1044" data-name="Group 1044" transform="translate(84 73.762)">
-        <rect id="Rectangle_379-2" data-name="Rectangle 379" width="33.486" height="11" rx="5.5" fill="#00afcb"/>
+        <rect id="Rectangle_379-2" data-name="Rectangle 379" width="33.486" height="11" rx="5.5" fill="#E88A85"/>
       </g>
     </g>
   </g>

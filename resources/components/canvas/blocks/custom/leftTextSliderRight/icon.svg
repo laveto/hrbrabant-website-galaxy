@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" viewBox="0 0 600 400">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_81" data-name="Rectangle 81" width="500" height="250" transform="translate(0 0)" fill="#199ec5"/>
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="500" height="250" transform="translate(0 0)" fill="#D65A54"/>
     </clipPath>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#0093be" stop-opacity="0"/>
-      <stop offset="1" stop-color="#0093be"/>
+      <stop offset="0" stop-color="#D65A54" stop-opacity="0"/>
+      <stop offset="1" stop-color="#D65A54"/>
     </linearGradient>
     <clipPath id="clip-Tekst_slider">
       <rect width="600" height="400"/>
@@ -14,12 +14,12 @@
   <g id="Tekst_slider" data-name="Tekst/slider" clip-path="url(#clip-Tekst_slider)">
     <rect width="600" height="400" fill="#fff"/>
     <g id="Group_1033" data-name="Group 1033" transform="translate(50.127 -1325)">
-      <rect id="Rectangle_155" data-name="Rectangle 155" width="500" height="250" rx="16" transform="translate(-0.128 1400)" fill="#0093be"/>
+      <rect id="Rectangle_155" data-name="Rectangle 155" width="500" height="250" rx="16" transform="translate(-0.128 1400)" fill="#D65A54"/>
     </g>
     <g id="Group_1038" data-name="Group 1038">
-      <path id="HR_Zeeland_Bedrijfsfilm_0-49_screenshot" data-name="HR Zeeland Bedrijfsfilm 0-49 screenshot" d="M16,0H133.8a16,16,0,0,1,16,16V130.864a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(340.912 111.238)" fill="#66bed8"/>
-      <path id="HR_Zeeland_Bedrijfsfilm_0-40_screenshot" data-name="HR Zeeland Bedrijfsfilm 0-40 screenshot" d="M16,0H154a16,16,0,0,1,16,16V138a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(331 124.762)" fill="#33a9cb"/>
-      <path id="HR-Zeeland-Bedrijfsfilm-0-18-screenshot-5" d="M16,0H172a16,16,0,0,1,16,16V150a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(322 138.762)" fill="#47c8ed"/>
+      <path id="HR_Brabant_Bedrijfsfilm_0-49_screenshot" data-name="HR Brabant Bedrijfsfilm 0-49 screenshot" d="M16,0H133.8a16,16,0,0,1,16,16V130.864a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(340.912 111.238)" fill="#EDA5A1"/>
+      <path id="HR_Brabant_Bedrijfsfilm_0-40_screenshot" data-name="HR Brabant Bedrijfsfilm 0-40 screenshot" d="M16,0H154a16,16,0,0,1,16,16V138a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(331 124.762)" fill="#DE726D"/>
+      <path id="HR-Brabant-Bedrijfsfilm-0-18-screenshot-5" d="M16,0H172a16,16,0,0,1,16,16V150a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V16A16,16,0,0,1,16,0Z" transform="translate(322 138.762)" fill="#E88A85"/>
       <rect id="Rectangle_2439" data-name="Rectangle 2439" width="226" height="110" transform="translate(303 179)" fill="url(#linear-gradient)"/>
       <g id="Group_1054" data-name="Group 1054" transform="translate(0 -5.388)">
         <g id="Group_1053" data-name="Group 1053" transform="translate(0 -7)">

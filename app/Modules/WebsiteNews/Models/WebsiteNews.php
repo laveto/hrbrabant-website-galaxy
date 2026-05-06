@@ -35,6 +35,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property int|null $canvas_id
  * @property-read Canvas|null $canvas
+ * @property-read array $translatable_columns_from
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read mixed $translations

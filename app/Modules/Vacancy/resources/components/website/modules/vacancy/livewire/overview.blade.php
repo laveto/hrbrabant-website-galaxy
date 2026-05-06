@@ -247,10 +247,10 @@
                 style='box-shadow: 0 8px 24px #0000001F;' data-vacancy-type="{{ $typeVacancy?->value ?: '' }}">
                 <div class='text-2xl font-semibold {{ $colors['color'] }}'>
                     @if($colors['color'] == 'text-palette-green')
-                        <img class='inline-block w-8' src='/img/website/groen_logo.svg' alt='Groen HRZeeland logo'>
+                        <img class='inline-block w-8' src='/img/website/groen_logo.svg' alt='Groen HR Brabant logo'>
                     @elseif($colors['color'] == 'text-palette-orange')
                         <img class='inline-block w-8 [transform:_translate3d(0,0,0)]' src='/img/website/oranje_logo.svg'
-                            alt='Oranje HRZeeland logo'>
+                            alt='Oranje HR Brabant logo'>
                     @endif
 
                     {{ $vacancy->title }}

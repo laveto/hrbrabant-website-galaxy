@@ -23,7 +23,7 @@
                             <table border="0" cellpadding="10" cellspacing="1" style="width:100%">
                                 <tbody>
                                 <tr>
-                                    <td><a class="btn-primary" href="mailto:info@hrzeeland.nl">Stuur een mail</a></td>
+                                    <td><a class="btn-primary" href="mailto:info@hrbrabant.nl">Stuur een mail</a></td>
                                     <td><a class="btn-outline" href="#">Bel me terug</a></td>
                                 </tr>
                                 </tbody>
