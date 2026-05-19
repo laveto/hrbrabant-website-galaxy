@@ -60,7 +60,7 @@
 
             <x-admin::card title="Contact informatie">
 
-                @input('select', [
+                @input('vSelect', [
                     'name' => 'location',
                     'values' => [
                         'terneuzen' => 'Terneuzen',
