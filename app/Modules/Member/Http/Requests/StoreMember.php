@@ -26,7 +26,7 @@ class StoreMember extends FormRequest
                     'published' => 'boolean',
 
                     'location' => 'nullable|array',
-                    'location.*' => 'string|in:terneuzen,goes',
+                    'location.*' => 'string|in:etten-leur',
                     'email' => 'nullable|email',
                     'linkedin' => 'nullable',
                     'whatsapp' => 'nullable',
@@ -42,7 +42,7 @@ class StoreMember extends FormRequest
                     'published' => 'boolean',
 
                     'location' => 'nullable|array',
-                    'location.*' => 'string|in:terneuzen,goes',
+                    'location.*' => 'string|in:etten-leur',
                     'email' => 'nullable|email',
                     'linkedin' => 'nullable',
                     'whatsapp' => 'nullable',

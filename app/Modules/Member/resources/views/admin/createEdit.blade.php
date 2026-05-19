@@ -63,8 +63,7 @@
                 @input('vSelect', [
                     'name' => 'location',
                     'values' => [
-                        'terneuzen' => 'Terneuzen',
-                        'goes' => 'Goes',
+                        'etten-leur' => 'Etten-Leur',
                     ],
                     'required' => false,
                     'multiple' => true,
