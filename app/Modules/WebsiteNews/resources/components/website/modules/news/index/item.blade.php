@@ -1,14 +1,25 @@
+@php($newsShowUrl = \App\Modules\WebsiteNews\Services\NewsService::getShowUrl($news))
+
 <div class="{{ $cssNs }} rounded-2xl flex flex-col gap-2" itemscope itemtype="https://schema.org/Article">
 
     @if($news->hasMedia() && App\Modules\WebsiteNews\Services\NewsService::checkItemShowConfig('image'))
-        <a href="{{ action([\App\Modules\WebsiteNews\Resources\Components\Website\Modules\News\WebsiteController::class, 'show'], ['news' => $news->slug]) }}">
+        @if ($newsShowUrl)
+            <a href="{{ $newsShowUrl }}">
+                @media($news, [
+                    'collection' => 'default',
+                    'fit' => 'object-cover',
+                    'class' => 'rounded-2xl object-cover',
+                    'itemprop' => 'image',
+                ])
+            </a>
+        @else
             @media($news, [
                 'collection' => 'default',
                 'fit' => 'object-cover',
                 'class' => 'rounded-2xl object-cover',
                 'itemprop' => 'image',
             ])
-        </a>
+        @endif
     @endif
 
     @if(App\Modules\WebsiteNews\Services\NewsService::showDateOfNewsBasedOnLastUpdate($news))
@@ -27,11 +38,17 @@
     @endif
 
     @if(App\Modules\WebsiteNews\Services\NewsService::checkItemShowConfig('title'))
-        <a href="{{ action([\App\Modules\WebsiteNews\Resources\Components\Website\Modules\News\WebsiteController::class, 'show'], ['news' => $news->slug]) }}">
+        @if ($newsShowUrl)
+            <a href="{{ $newsShowUrl }}">
+                <h3 class="font-bold" itemprop="headline">
+                    {{ $news->title }}
+                </h3>
+            </a>
+        @else
             <h3 class="font-bold" itemprop="headline">
                 {{ $news->title }}
             </h3>
-        </a>
+        @endif
     @endif
 
     @if(App\Modules\WebsiteNews\Services\NewsService::checkItemShowConfig('content'))
@@ -40,9 +57,9 @@
         </div>
     @endif
 
-    @if(App\Modules\WebsiteNews\Services\NewsService::checkItemShowConfig('read_more'))
+    @if(App\Modules\WebsiteNews\Services\NewsService::checkItemShowConfig('read_more') && $newsShowUrl)
         <a class="btn-primary"
-            href="{{ action([\App\Modules\WebsiteNews\Resources\Components\Website\Modules\News\WebsiteController::class, 'show'], ['news' => $news->slug]) }}"
+            href="{{ $newsShowUrl }}"
             itemprop="url"
         >
             {{ __('website_news::translation.read_more') }}

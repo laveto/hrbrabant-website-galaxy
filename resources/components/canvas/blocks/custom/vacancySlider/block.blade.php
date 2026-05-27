@@ -30,12 +30,27 @@
                 <?php
                     $amount = count((array)@$canvasBlock->options->loops->loop->items ?: []) ?: 5;
                     $items = \App\Modules\Vacancy\Models\Vacancy::with('vacancyValues')->orderBy('publicationStartDate', 'desc')
-                        ->when(isset($canvasBlock->options->vacancies) && str_starts_with($canvasBlock->options->vacancies, 'https://hrbrabant.nl/vacatures?filter'), function($query) use ($canvasBlock){
+                        ->when(isset($canvasBlock->options->vacancies) && str_starts_with($canvasBlock->options->vacancies, 'https://hrbrabant.nl/vacatures?filter'), function($query) use ($canvasBlock, $edit) {
 
-                            $data = Cache::remember('blocks.custom.vacancySlider.'.$canvasBlock->id.'filter-url', 60, function() use ($canvasBlock, $query) {
-                                $response = Http::get($canvasBlock->options->vacancies.'&json=true');
+                            // In the canvas editor we re-render the whole page on every save.
+                            // Hitting hrbrabant.nl synchronously here used to push save time to
+                            // ~20s when the cache was cold or the upstream was slow. The editor
+                            // preview doesn't need filtered results — fall back to "all vacancies".
+                            if (@$edit) {
+                                return;
+                            }
 
-                                return $response->successful() ? $response->json() : [];
+                            $data = Cache::remember('blocks.custom.vacancySlider.'.$canvasBlock->id.'filter-url', 600, function() use ($canvasBlock) {
+                                try {
+                                    $response = Http::timeout(3)
+                                        ->connectTimeout(2)
+                                        ->get($canvasBlock->options->vacancies.'&json=true');
+
+                                    return $response->successful() ? $response->json() : [];
+                                } catch (\Throwable $e) {
+                                    report($e);
+                                    return [];
+                                }
                             });
 
                             $query->whereIn('referenceNr', $data ?: []);

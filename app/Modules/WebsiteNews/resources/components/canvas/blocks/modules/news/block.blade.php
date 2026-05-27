@@ -24,11 +24,14 @@
                 ])
             </div>
 
-            <a href="{{ action([\App\Modules\WebsiteNews\Resources\Components\Website\Modules\News\WebsiteController::class, 'index']) }}" 
-                class="order-1 mt-4 md:mb-8 btn-black-outline sm:order-none sm:mt-0 btn-primary !py-2.5 !px-5 !rounded-full !font-normal"
-            >
-                {{ __('Alle blogs bekijken') }}
-            </a>
+            @php($newsIndexUrl = \App\Modules\WebsiteNews\Services\NewsService::getIndexUrl())
+            @if ($newsIndexUrl)
+                <a href="{{ $newsIndexUrl }}"
+                    class="order-1 mt-4 md:mb-8 btn-black-outline sm:order-none sm:mt-0 btn-primary !py-2.5 !px-5 !rounded-full !font-normal"
+                >
+                    {{ __('Alle blogs bekijken') }}
+                </a>
+            @endif
 
             @if($upcomingNews->isNotEmpty())
 
