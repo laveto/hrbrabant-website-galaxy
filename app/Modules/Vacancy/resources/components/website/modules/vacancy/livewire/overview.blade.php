@@ -78,7 +78,7 @@
                             ">
                                 <input type="checkbox" class="hidden"
                                     wire:model.live="filter.matchCriteria_15.Uitzenden">
-                                <i class='mr-2 text-base far fa-helmet-safety text-palette-pink'></i>
+                                <i class='mr-2 text-base far fa-helmet-safety text-palette-purple'></i>
                                 {{ __('Operationeel & uitvoerend') }}
                             </label>
 
@@ -87,7 +87,7 @@
                             ">
                                 <input type="checkbox" class="hidden"
                                     wire:model.live="filter.matchCriteria_15.Werving en Selectie">
-                                <i class='mr-2 text-base far fa-display text-palette-purple'></i>
+                                <i class='mr-2 text-base far fa-display text-palette-pink'></i>
                                 {{ __('Werving en Selectie') }}
                             </label>
                         </div>
@@ -214,7 +214,7 @@
                         {{ $this->checkInFilter('matchCriteria_15', 'Uitzenden') ? 'bg-gray-200 hover:bg-opacity-75' : '' }}
                     ">
                         <input type="checkbox" class="hidden" wire:model.live="filter.matchCriteria_15.Uitzenden">
-                        <i class='mr-2 text-base far fa-helmet-safety text-palette-pink'></i>
+                        <i class='mr-2 text-base far fa-helmet-safety text-palette-purple'></i>
                         {{ __('Operationeel & uitvoerend') }}
                     </label>
 
@@ -223,7 +223,7 @@
                     ">
                         <input type="checkbox" class="hidden"
                             wire:model.live="filter.matchCriteria_15.Werving en Selectie">
-                        <i class='mr-2 text-base far fa-display text-palette-purple'></i> {{ __('Werving en Selectie') }}
+                        <i class='mr-2 text-base far fa-display text-palette-pink'></i> {{ __('Werving en Selectie') }}
                     </label>
                 </div>
             </div>

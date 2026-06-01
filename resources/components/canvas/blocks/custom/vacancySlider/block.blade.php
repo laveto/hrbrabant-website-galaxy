@@ -98,9 +98,9 @@
 
                                 <?php
                                     $color = ($criteria = $item->vacancyValues->where('unique_key', 'matchCriteria_15'))->contains('value', 'Werving en Selectie')
-                                        ? 'text-palette-purple' : ($criteria->contains('value', 'Uitzenden') ? 'text-palette-pink' : '');
+                                        ? 'text-palette-pink' : ($criteria->contains('value', 'Uitzenden') ? 'text-palette-purple' : '');
                                     $background = ($criteria = $item->vacancyValues->where('unique_key', 'matchCriteria_15'))->contains('value', 'Werving en Selectie')
-                                        ? 'bg-palette-purple' : ($criteria->contains('value', 'Uitzenden') ? 'bg-palette-pink' : '');
+                                        ? 'bg-palette-pink' : ($criteria->contains('value', 'Uitzenden') ? 'bg-palette-purple' : '');
                                 ?>
                                 <div class="flex flex-col h-full p-4 bg-white rounded-2xl md:p-8">
                                     <div class="mb-4 text-lg font-semibold title {{ $color }}">

@@ -329,11 +329,11 @@ class Overview extends Component
         $background = 'bg-palette-lightblue';
 
         if ($criteria->contains('value', 'Werving en Selectie')) {
-            $color = 'text-palette-purple';
-            $background = 'bg-palette-purple';
-        } elseif ($criteria->contains('value', 'Uitzenden')) {
             $color = 'text-palette-pink';
             $background = 'bg-palette-pink';
+        } elseif ($criteria->contains('value', 'Uitzenden')) {
+            $color = 'text-palette-purple';
+            $background = 'bg-palette-purple';
         }
 
         return [
