@@ -98,16 +98,16 @@
 
                                 <?php
                                     $color = ($criteria = $item->vacancyValues->where('unique_key', 'matchCriteria_15'))->contains('value', 'Werving en Selectie')
-                                        ? 'text-palette-green' : ($criteria->contains('value', 'Uitzenden') ? 'text-palette-orange' : '');
+                                        ? 'text-palette-purple' : ($criteria->contains('value', 'Uitzenden') ? 'text-palette-pink' : '');
                                     $background = ($criteria = $item->vacancyValues->where('unique_key', 'matchCriteria_15'))->contains('value', 'Werving en Selectie')
-                                        ? 'bg-palette-green' : ($criteria->contains('value', 'Uitzenden') ? 'bg-palette-orange' : '');
+                                        ? 'bg-palette-purple' : ($criteria->contains('value', 'Uitzenden') ? 'bg-palette-pink' : '');
                                 ?>
                                 <div class="flex flex-col h-full p-4 bg-white rounded-2xl md:p-8">
                                     <div class="mb-4 text-lg font-semibold title {{ $color }}">
-                                        @if( $color == 'text-palette-green')
-                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/groen_logo.svg' alt='Groen HR Brabant logo'>
-                                        @elseif( $color == 'text-palette-orange')
-                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/oranje_logo.svg' alt='Oranje HR Brabant logo'>
+                                        @if( $color == 'text-palette-purple')
+                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/hrbrabant-softindigo.svg' alt='HR Brabant logo'>
+                                        @elseif( $color == 'text-palette-pink')
+                                            <img class='inline-block w-8 mr-2 [transform:_translate3d(0,0,0)]' src='/img/website/hrbrabant-berryrose.svg' alt='HR Brabant logo'>
                                         @endif
 
                                         {{ $item->title }}

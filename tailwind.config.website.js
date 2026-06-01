@@ -13,9 +13,9 @@ module.exports = {
                     grayishlighterbue: '#C25550',
                     darkgray: '#4B5563',
                     gray: '#9CA3AF',
-                    green: '#50B49B',
-                    orange: '#F18F03',
-                }
+                    purple: '#616BB5',
+                    pink: '#b85696',
+                },
             },
         },
         fontFamily: {
@@ -23,11 +23,7 @@ module.exports = {
         },
     },
 
-    plugins: [
-        require('@tailwindcss/aspect-ratio'),
-        require('@tailwindcss/typography'),
-        require('@tailwindcss/forms'),
-    ],
+    plugins: [require('@tailwindcss/aspect-ratio'), require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 
     content: [
         __dirname + '/galaxy/modules/*/resources/**/*.{vue,js,scss,php}',

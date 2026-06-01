@@ -78,7 +78,7 @@
                             ">
                                 <input type="checkbox" class="hidden"
                                     wire:model.live="filter.matchCriteria_15.Uitzenden">
-                                <i class='mr-2 text-base far fa-helmet-safety text-palette-orange'></i>
+                                <i class='mr-2 text-base far fa-helmet-safety text-palette-pink'></i>
                                 {{ __('Operationeel & uitvoerend') }}
                             </label>
 
@@ -87,7 +87,7 @@
                             ">
                                 <input type="checkbox" class="hidden"
                                     wire:model.live="filter.matchCriteria_15.Werving en Selectie">
-                                <i class='mr-2 text-base far fa-display text-palette-green'></i>
+                                <i class='mr-2 text-base far fa-display text-palette-purple'></i>
                                 {{ __('Werving en Selectie') }}
                             </label>
                         </div>
@@ -214,7 +214,7 @@
                         {{ $this->checkInFilter('matchCriteria_15', 'Uitzenden') ? 'bg-gray-200 hover:bg-opacity-75' : '' }}
                     ">
                         <input type="checkbox" class="hidden" wire:model.live="filter.matchCriteria_15.Uitzenden">
-                        <i class='mr-2 text-base far fa-helmet-safety text-palette-orange'></i>
+                        <i class='mr-2 text-base far fa-helmet-safety text-palette-pink'></i>
                         {{ __('Operationeel & uitvoerend') }}
                     </label>
 
@@ -223,7 +223,7 @@
                     ">
                         <input type="checkbox" class="hidden"
                             wire:model.live="filter.matchCriteria_15.Werving en Selectie">
-                        <i class='mr-2 text-base far fa-display text-palette-green'></i> {{ __('Werving en Selectie') }}
+                        <i class='mr-2 text-base far fa-display text-palette-purple'></i> {{ __('Werving en Selectie') }}
                     </label>
                 </div>
             </div>
@@ -246,11 +246,11 @@
             <div class='flex flex-col items-start p-8 my-8 space-y-4 bg-white lg:my-10 rounded-xl'
                 style='box-shadow: 0 8px 24px #0000001F;' data-vacancy-type="{{ $typeVacancy?->value ?: '' }}">
                 <div class='text-2xl font-semibold {{ $colors['color'] }}'>
-                    @if($colors['color'] == 'text-palette-green')
-                        <img class='inline-block w-8' src='/img/website/groen_logo.svg' alt='Groen HR Brabant logo'>
-                    @elseif($colors['color'] == 'text-palette-orange')
-                        <img class='inline-block w-8 [transform:_translate3d(0,0,0)]' src='/img/website/oranje_logo.svg'
-                            alt='Oranje HR Brabant logo'>
+                    @if($colors['color'] == 'text-palette-purple')
+                        <img class='inline-block w-8' src='/img/website/hrbrabant-softindigo.svg' alt='HR Brabant logo'>
+                    @elseif($colors['color'] == 'text-palette-pink')
+                        <img class='inline-block w-8 [transform:_translate3d(0,0,0)]' src='/img/website/hrbrabant-berryrose.svg'
+                            alt='HR Brabant logo'>
                     @endif
 
                     {{ $vacancy->title }}
